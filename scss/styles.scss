@@ -2,6 +2,7 @@
 @import 'fontawesome-all.css';
 
 $main-color: rgb(234, 69, 143);
+$secondary-color: rgb(99, 49, 138);
 
 .logo {
 	background-color: $main-color;
@@ -57,6 +58,21 @@ $main-color: rgb(234, 69, 143);
 	align-items: center;	
 }
 
+.news-item {
+	background-color: white;
+}
 
+.bottom-footer {
+	background-color: rgb(77, 78, 78);
+}
+
+
+// .carousel-indicators {
+// 	color: black;
+// }
+
+// .test {
+// 	background-color: grey;
+// }
 
 

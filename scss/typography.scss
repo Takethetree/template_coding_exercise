@@ -1,5 +1,6 @@
 
 $link-colour: rgb(188,188,188);
+$secondary-color: rgb(99, 49, 138);
 
 .logo-text {
 	color: white;
@@ -14,3 +15,6 @@ button a {
 	color: white;
 }
 
+.news-title {
+	color: $secondary-color;
+}
