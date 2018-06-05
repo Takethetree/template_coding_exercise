@@ -10,7 +10,8 @@ button a {
   color: white; }
 
 .logo {
-  background-color: #ea458f; }
+  background-color: #ea458f;
+  border-radius: 4em; }
 
 .announcement {
   background-color: #ea458f; }
@@ -24,3 +25,18 @@ button a {
 
 .news-section {
   background-color: #f17f38; }
+
+.welcome-link {
+  display: block;
+  position: relative; }
+
+.welcome-image-caption {
+  top: 0;
+  right: 0;
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

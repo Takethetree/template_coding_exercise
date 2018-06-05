@@ -8,7 +8,7 @@ $main-color: rgb(234, 69, 143);
 	// width: 10%;
 	// margin-left: 2em;
 	// padding: 1em;
-	// border-radius: 4em;
+	border-radius: 4em;
 }
 
 // .header-nav {
@@ -33,5 +33,30 @@ $main-color: rgb(234, 69, 143);
 	background-color: rgb(241,127,56);
 
 }
+
+.welcome-image {
+	// display: block;
+	// position: relative;
+
+}
+
+.welcome-link {
+	display: block;
+	position: relative;
+}
+
+.welcome-image-caption {
+	top: 0;
+	right: 0;
+	color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+
 
 
