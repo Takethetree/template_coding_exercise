@@ -1,13 +1,13 @@
 {
-  "name": "Week_5",
+  "name": "Week_8",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template coding exercise for week 9",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sam Swannack",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",

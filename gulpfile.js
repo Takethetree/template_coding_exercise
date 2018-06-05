@@ -18,44 +18,23 @@ gulp.task('sass', function () {
     return stream;
 });
 
-gulp.task('minify-css', () => {
-  return gulp.src('css/styles.css')
-	.pipe(cleanCSS({compatibility: 'ie8'}))
-	.pipe(rename({suffix: '.min'}))
-	.pipe(gulp.dest('./css/'));
-});
+// gulp.task('minify-css', () => {
+//   return gulp.src('css/styles.css')
+// 	.pipe(cleanCSS({compatibility: 'ie8'}))
+//     .pipe(gulp.dest('./css/'))
+// 	.pipe(rename({suffix: '.min'}));
 
-gulp.task('styles', function(callback){
-	gulpSequence('sass', 'minify-css')(callback)
-});
+// });
+
+// gulp.task('styles', function(callback){
+// 	gulpSequence('sass')(callback)
+// });
 
 gulp.task('watch', function () {
-	gulp.watch('./scss/*.scss', ['styles']);
+	gulp.watch('./scss/*.scss', ['sass']);
 });
 
-// exercise 6
 
-gulp.task('concat-js', function() {
-  return gulp.src(['js/jquery-3.2.1.slim.js','js/popper.js','js/bootstrap.js'])
-    .pipe(concat('all.js'))
-    .pipe(gulp.dest('./js/'));
-});
-
- 
-gulp.task('uglify', function () {
-    return gulp.src("js/all.js")
-        .pipe(rename("all.min.js"))
-        .pipe(uglify(/* options */))
-        .pipe(gulp.dest("./js/"));
-});
-
-gulp.task('minify-js', function(callback) {
-	gulpSequence('concat-js', 'uglify')(callback)
-});
-
-gulp.task('watch2', function () {
-	gulp.watch('./js/*.js', ['minify-js']);
-});
 
 
 // Gulp functions you'll need:

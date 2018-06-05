@@ -1,0 +1,26 @@
+@import url(fontawesome-all.css);
+.logo-text {
+  color: white;
+  text-align: center; }
+
+button a {
+  color: white; }
+
+.news-text {
+  color: white; }
+
+.logo {
+  background-color: #ea458f; }
+
+.announcement {
+  background-color: #ea458f; }
+
+.welcome-header {
+  color: #ea458f; }
+
+.read-more {
+  background-color: #ea458f;
+  border-radius: 1em; }
+
+.news-section {
+  background-color: #f17f38; }
