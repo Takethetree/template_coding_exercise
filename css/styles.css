@@ -12,22 +12,29 @@ button a {
 .news-title {
   color: #63318a; }
 
+.calendar-header {
+  color: #63318a; }
+
+.calendar-date {
+  color: #63318a;
+  display: inline; }
+
 .logo {
   background-color: #ea458f;
   border-radius: 4em; }
-
-.announcement {
-  background-color: #ea458f; }
 
 .welcome-header {
   color: #ea458f; }
 
 .read-more {
   background-color: #ea458f;
-  border-radius: 1em; }
+  border-radius: 1em;
+  margin-top: 2em; }
 
 .news-section {
-  background-color: #f17f38; }
+  background-color: #f17f38;
+  padding-bottom: 8em;
+  margin-bottom: 4em; }
 
 .welcome-link {
   display: block;
@@ -52,3 +59,41 @@ button a {
 
 .twitter-carousel {
   background-color: #ea458f; }
+
+.welcome-section {
+  margin-top: 8em;
+  margin-bottom: 8em; }
+
+.welcome-header {
+  margin-bottom: 1em; }
+
+.welcome-sub-header {
+  margin-bottom: 2em; }
+
+.icon-background {
+  color: #ea458f; }
+
+.fa-stack {
+  color: white; }
+
+.fa-search {
+  color: #ea458f; }
+
+.header-nav {
+  margin-top: 4em; }
+
+.menu-item {
+  padding: 0.4em; }
+
+.main-image-container {
+  position: relative; }
+
+.announcement {
+  background-color: rgba(234, 69, 143, 0.5);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 1em;
+  width: calc(100% - 2em);
+  height: 4em; }

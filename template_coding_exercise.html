@@ -29,78 +29,84 @@
 						website's name
 					</h6>
 				</div>
-				<nav class="header-nav col">
-					<a href="" class="text-secondary" >Home</a>
-					<a href="" class="text-secondary" >About Us</a>
-					<a href="" class="text-secondary" >Information</a>
-					<a href="" class="text-secondary" >Curriculum</a>
-					<a href="" class="text-secondary" >Parents</a>
-					<a href="" class="text-secondary" >News & Events</a>
-					<a href="" class="text-secondary" >Contact Us</a>
+				<nav class="header-nav col-7">
+					<a href="" class="text-secondary menu-item" >Home</a>
+					<a href="" class="text-secondary menu-item" >About Us</a>
+					<a href="" class="text-secondary menu-item" >Information</a>
+					<a href="" class="text-secondary menu-item" >Curriculum</a>
+					<a href="" class="text-secondary menu-item" >Parents</a>
+					<a href="" class="text-secondary menu-item" >News & Events</a>
+					<a href="" class="text-secondary menu-item" >Contact Us</a>
 				</nav>
 
 				<div class="col">
+					<span class="fa-stack fa">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fab fas fa-search fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack fa">
+						<i class="fa fa-circle fa-stack-2x icon-background"></i>
+						<i class="fab fa-twitter fa-stack-1x"></i>
+					</span>	
 					<span class="fa-stack fa">
 						<i class="fa fa-circle fa-stack-2x icon-background"></i>
 						<i class="fab fa-facebook fa-stack-1x"></i>
 					</span>
 					<span class="fa-stack fa">
 						<i class="fa fa-circle fa-stack-2x icon-background"></i>
-						<i class="fab fa-twitter fa-stack-1x"></i>
-					</span>		
-					<span class="fa-stack fa">
-						<i class="fa fa-circle fa-stack-2x icon-background"></i>
-						<i class="fab fa-dribbble fa-stack-1x"></i>
-					</span>	
-					<span class="fa-stack fa">
-						<i class="fa fa-circle fa-stack-2x icon-background"></i>
-						<i class="fab fa-linkedin fa-stack-1x"></i>
-					</span>
-					<span class="fa-stack fa">
-						<i class="fa fa-circle fa-stack-2x icon-background"></i>
-						<i class="fab fa-youtube fa-stack-1x"></i>
+						<i class="fab fas fa-ellipsis-h fa-stack-1x"></i>
 					</span>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<section class="announcement"> <!-- news announcement, transparent styling -->
-		<h4>
-			Announcement
-		</h4>
-
-
-		
-	</section>
 
 	<section> <!-- main image -->
-		<h4>
-			Here is an image
-		</h4>
-
-		<img src="images/main_ballet.jpg" class="img-fluid" alt="ballet dancer">
-		
+		<div class="container main-image-container">
+			<img src="images/main_ballet.jpg" class="img-fluid" alt="ballet dancer">
+			<div class="announcement col-12">
+				<span class="text-light">
+					Announcement: School in top 5% of schools in the country
+				</span>
+			</div>
+		</div>
 	</section>
 
-	<section> <!-- welcome section -->
+	<section class="welcome-section"> <!-- welcome section -->
 
 		<div class="container">
 			<div class="row">
-				<div class="col">
+				<div class="col welcome-text">
 					<header>
-						<h2 class="welcome-header">
+						<h1 class="welcome-header">
 							Welcome
-						</h2>
+						</h1>
 					</header>
 
 					<article>
+						<h5 class="welcome-sub-header text-secondary">
+							Welcome to the school where high expectations in terms of learning and behaviour ensure that girls flourish.
+						</h5>
+
+
+						<p class="welcome-paragraph text-secondary">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+
+						<p class="welcome-paragraph text-secondary">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
 					</article>
 
 					<footer>
@@ -164,14 +170,10 @@
 	</section>
 
 
-	<section class="news-section"> <!-- news section -->
+	<section class="news-section container"> <!-- news section -->
 		<header class="container">
 			<h4 class="news-text">News</h4>
 		</header>
-
-<!-- 			<div><a href="www.google.co.uk">Link 1</a></div>
-			<div><a href="www.google.co.uk">Link 2</a></div>
-			<div><a href="www.google.co.uk">Link 3</a></div> -->
 
 
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -277,9 +279,9 @@
 
 	</section>
 
-	<section> <!-- calendar section -->
-		<header class="container">
-			<h2>Calendar</h2>
+	<section class="container"> <!-- calendar section -->
+		<header>
+			<h2 class="calendar-header">Calendar</h2>
 		</header>
 
 
@@ -295,11 +297,21 @@
 			    		<div class="col">
 							<a href="www.google.co.uk">
 								<div>
-									<h5>
-										Date
-									</h5>
+									<header>
+										<h2 class="calendar-date">
+											03 
+										</h2>
+										<span class="month text-dark">April</span>
+									</header>
+
 									<article class="text-secondary">
-										Calendar Event 1
+										<p>
+											Example preparation and Revision for IT
+										</p>
+
+										<p>
+											Prep for working life
+										</p>
 									</article>
 								</div>
 							</a>
@@ -307,11 +319,21 @@
 			    		<div class="col">
 							<a href="www.google.co.uk">
 								<div>
-									<h5>
-										Date
-									</h5>
+									<header>
+										<h2 class="calendar-date">
+											04 
+										</h2>
+										<span class="month text-dark">April</span>
+									</header>
+								
 									<article class="text-secondary">
-										Calendar Event 2
+										<p>
+											Parents Evening
+										</p>
+
+										<p>
+											Year 9 Options Evening
+										</p>
 									</article>
 								</div>
 							</a>
@@ -319,11 +341,43 @@
 			    		<div class="col">
 							<a href="www.google.co.uk">
 								<div>
-									<h5>
-										Date
-									</h5>
+									<header>
+										<h2 class="calendar-date">
+											11 
+										</h2>
+										<span class="month text-dark">April</span>
+									</header>
+
 									<article class="text-secondary">
-									Calendar Event 3
+										<p>
+											Year 8 EAL Parents Evening
+										</p>
+
+										<p>
+											
+										</p>
+									</article>
+								</div>
+							</a>
+			    		</div>
+			    		<div class="col">
+							<a href="www.google.co.uk">
+								<div>
+									<header>
+										<h2 class="calendar-date">
+											24 
+										</h2>
+										<span class="month text-dark">April</span>
+									</header>
+
+									<article class="text-secondary">
+										<p>
+											Year 9 Options Evening
+										</p>
+
+										<p>
+											
+										</p>
 									</article>
 								</div>
 							</a>
@@ -336,11 +390,21 @@
 			    		<div class="col">
 							<a href="www.google.co.uk">
 								<div>
-									<h5>
-										Date
-									</h5>
+									<header>
+										<h2 class="calendar-date">
+											04 
+										</h2>
+										<span class="month text-dark">May</span>
+									</header>
+
 									<article class="text-secondary">
-											Calendar Event 4
+										<p>
+											Space launch
+										</p>
+
+										<p>
+											Bring fireworks
+										</p>
 									</article>
 								</div>
 							</a>
@@ -348,32 +412,74 @@
 			    		<div class="col">
 							<a href="www.google.co.uk">
 								<div>
-									<h5>
-										Date
-									</h5>
+									<header>
+										<h2 class="calendar-date">
+											07 
+										</h2>
+										<span class="month text-dark">May</span>
+									</header>
+
 									<article class="text-secondary">
-										Calendar Event 5
+										<p>
+											Cat Open Day
+										</p>
+
+										<p>
+											
+										</p>
 									</article>
 								</div>
 							</a>
 			    		</div>
-			    			<div class="col">
-								<a href="www.google.co.uk">
-									<div>
-										<h5>
-											Date
-										</h5>
-										<article class="text-secondary">
-											Calendar Event 6
-										</article>
-									</div>
-								</a>
-			    			</div>
-			    		</div>
-			      
-			    	</div>
+			    		<div class="col">
+							<a href="www.google.co.uk">
+								<div>
+									<header>
+										<h2 class="calendar-date">
+											17 
+										</h2>
+										<span class="month text-dark">May</span>
+									</header>
 
-				</div>
+									<article class="text-secondary">
+										<p>
+											Sodastream party
+										</p>
+
+										<p>
+											
+										</p>
+									</article>
+								</div>
+							</a>
+			    		</div>
+			    		<div class="col">
+							<a href="www.google.co.uk">
+								<div>
+									<header>
+										<h2 class="calendar-date">
+											29
+										</h2>
+										<span class="month text-dark">May</span>
+									</header>
+
+									<article class="text-secondary">
+										<p>
+											Garden gnomes
+										</p>
+
+										<p>
+											
+										</p>
+									</article>
+								</div>
+							</a>
+			    		</div>
+			    	</div>
+			      
+			    </div>
+
+			</div>
 
 			  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 			    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -393,14 +499,14 @@
 
 	</section>
 
-	<section class="twitter-carousel"> <!-- tweet carousel -->
+	<section class="twitter-carousel container"> <!-- tweet carousel -->
 		<h4>
 			Tweet Carousel Here
 		</h4>
 		
 	</section>
 
-	<footer class="bottom-footer"> <!-- contact info, links, metadata -->
+	<footer class="bottom-footer container"> <!-- contact info, links, metadata -->
 		<div class="container">
 			<div class="row">
 				<div class="col">

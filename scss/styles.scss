@@ -16,9 +16,7 @@ $secondary-color: rgb(99, 49, 138);
 
 // }
 
-.announcement {
-	background-color: $main-color;
-}
+
 
 .welcome-header {
 	color: $main-color;
@@ -27,11 +25,14 @@ $secondary-color: rgb(99, 49, 138);
 .read-more {
 	background-color: $main-color;
 	border-radius: 1em;
+	margin-top: 2em;
 }
 
 
 .news-section {
 	background-color: rgb(241,127,56);
+	padding-bottom: 8em;
+	margin-bottom: 4em;
 
 }
 
@@ -77,5 +78,59 @@ $secondary-color: rgb(99, 49, 138);
 // .test {
 // 	background-color: grey;
 // }
+
+// .welcome-text {
+// 	margin-top: 2em;
+// }
+
+.welcome-section {
+	margin-top: 8em;
+	margin-bottom: 8em;
+}
+
+.welcome-header {
+	margin-bottom: 1em;
+}
+
+.welcome-sub-header {
+	margin-bottom: 2em;
+}
+
+.icon-background {
+	color: $main-color;
+}
+
+.fa-stack{
+	color: white;
+}
+
+.fa-search{
+	color: $main-color;
+}
+
+.header-nav{
+	margin-top: 4em;
+}
+
+.menu-item{
+	padding: 0.4em;
+}
+
+.main-image-container {
+	position: relative;
+}
+
+.announcement {
+	background-color: rgba(234, 69, 143, 0.5);
+	// opacity: 0.5;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	top: 0;
+	left: 1em;
+	width: calc(100% - 2em);
+	height: 4em;
+	// z-index: +1;
+}
 
 
