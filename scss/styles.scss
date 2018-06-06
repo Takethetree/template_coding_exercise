@@ -33,6 +33,7 @@ $secondary-color: rgb(99, 49, 138);
 	background-color: rgb(241,127,56);
 	padding-bottom: 8em;
 	margin-bottom: 4em;
+	padding-top: 1em;
 
 }
 
@@ -61,14 +62,20 @@ $secondary-color: rgb(99, 49, 138);
 
 .news-item {
 	background-color: white;
+	padding: 1em;
 }
 
 .bottom-footer {
 	background-color: rgb(77, 78, 78);
+	padding-bottom: 4em;
 }
 
 .twitter-carousel {
 	background-color: $main-color;
+	padding-top: 3em;
+	padding-bottom: 4em;
+	margin-bottom: 1em;
+	display: flex;
 }
 
 // .carousel-indicators {
@@ -98,6 +105,7 @@ $secondary-color: rgb(99, 49, 138);
 
 .icon-background {
 	color: $main-color;
+	// color: rgb(0, 0, 0);
 }
 
 .fa-stack{
@@ -132,5 +140,25 @@ $secondary-color: rgb(99, 49, 138);
 	height: 4em;
 	// z-index: +1;
 }
+
+.twitter-carousel .icon-background {
+	color: rgb(238, 125, 165);
+}
+
+.follow-us {
+	background-color: rgb(238, 125, 165);
+	border-radius: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.footer-column-item {
+	padding-top: 4em;
+}
+
+.footer-heading {
+	padding-bottom: 1em;
+}
+
 
 

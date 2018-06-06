@@ -34,7 +34,8 @@ button a {
 .news-section {
   background-color: #f17f38;
   padding-bottom: 8em;
-  margin-bottom: 4em; }
+  margin-bottom: 4em;
+  padding-top: 1em; }
 
 .welcome-link {
   display: block;
@@ -52,13 +53,19 @@ button a {
   align-items: center; }
 
 .news-item {
-  background-color: white; }
+  background-color: white;
+  padding: 1em; }
 
 .bottom-footer {
-  background-color: #4d4e4e; }
+  background-color: #4d4e4e;
+  padding-bottom: 4em; }
 
 .twitter-carousel {
-  background-color: #ea458f; }
+  background-color: #ea458f;
+  padding-top: 3em;
+  padding-bottom: 4em;
+  margin-bottom: 1em;
+  display: flex; }
 
 .welcome-section {
   margin-top: 8em;
@@ -97,3 +104,18 @@ button a {
   left: 1em;
   width: calc(100% - 2em);
   height: 4em; }
+
+.twitter-carousel .icon-background {
+  color: #ee7da5; }
+
+.follow-us {
+  background-color: #ee7da5;
+  border-radius: 2em;
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.footer-column-item {
+  padding-top: 4em; }
+
+.footer-heading {
+  padding-bottom: 1em; }
