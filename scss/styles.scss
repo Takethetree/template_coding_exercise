@@ -31,7 +31,7 @@ $secondary-color: rgb(99, 49, 138);
 
 .news-section {
 	background-color: rgb(241,127,56);
-	padding-bottom: 8em;
+	padding-bottom: 7em;
 	margin-bottom: 4em;
 	padding-top: 1em;
 
@@ -209,3 +209,16 @@ $secondary-color: rgb(99, 49, 138);
 	justify-content: center;
 }
 
+.get-directions {
+	background-color: rgb(140, 140, 140);
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+// .carousel-control-next-icon {
+// 	background-color: purple;
+// }
+
+.carousel-indicators li {
+	color: purple;
+}

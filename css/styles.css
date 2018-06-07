@@ -13,7 +13,8 @@ button a {
   color: #63318a; }
 
 .calendar-header {
-  color: #63318a; }
+  color: #63318a;
+  padding-bottom: 1em; }
 
 .calendar-date {
   color: #63318a;
@@ -33,7 +34,7 @@ button a {
 
 .news-section {
   background-color: #f17f38;
-  padding-bottom: 8em;
+  padding-bottom: 7em;
   margin-bottom: 4em;
   padding-top: 1em; }
 
@@ -155,3 +156,11 @@ button a {
 .back-to-top-text {
   display: flex;
   justify-content: center; }
+
+.get-directions {
+  background-color: #8c8c8c;
+  border-radius: 1em;
+  margin-top: 2em; }
+
+.carousel-indicators li {
+  color: purple; }
