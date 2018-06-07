@@ -58,7 +58,9 @@ button a {
 
 .bottom-footer {
   background-color: #4d4e4e;
-  padding-bottom: 4em; }
+  padding-bottom: 4em;
+  position: relative;
+  padding-top: 5em; }
 
 .twitter-carousel {
   background-color: #ea458f;
@@ -119,3 +121,37 @@ button a {
 
 .footer-heading {
   padding-bottom: 1em; }
+
+.main-image-slogan {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0; }
+
+.explore-arrow {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75em; }
+
+.explore-text {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25em; }
+
+.back-to-top {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2%;
+  width: calc(100% - 2em); }
+
+.back-to-top-arrow {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75em; }
+
+.back-to-top-text {
+  display: flex;
+  justify-content: center; }

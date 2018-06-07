@@ -68,6 +68,8 @@ $secondary-color: rgb(99, 49, 138);
 .bottom-footer {
 	background-color: rgb(77, 78, 78);
 	padding-bottom: 4em;
+	position: relative;
+	padding-top: 5em;
 }
 
 .twitter-carousel {
@@ -160,5 +162,50 @@ $secondary-color: rgb(99, 49, 138);
 	padding-bottom: 1em;
 }
 
+.main-image-slogan {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+}
 
+.explore-arrow {
+	display: flex;
+	justify-content: center;
+	font-size: 1.75em;
+}
+.explore-text {
+	display: flex;
+	justify-content: center;
+	font-size: 1.25em;
+}
+
+// #jump-to-welcome {
+// }
+
+// #jump-to-top {
+
+// }
+
+.back-to-top {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 2%;
+	width: calc(100% - 2em);
+
+}
+
+.back-to-top-arrow {
+	display: flex;
+	justify-content: center;
+	font-size: 1.75em;
+}
+
+.back-to-top-text {
+	display: flex;
+	justify-content: center;
+}
 
