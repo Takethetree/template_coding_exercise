@@ -34,7 +34,7 @@ button a {
 
 .news-section {
   background-color: #f17f38;
-  padding-bottom: 7em;
+  padding-bottom: 1em;
   margin-bottom: 4em;
   padding-top: 1em; }
 
@@ -162,5 +162,27 @@ button a {
   border-radius: 1em;
   margin-top: 2em; }
 
+#news-carousel {
+  padding-bottom: 10em; }
+
+#calendar-carousel {
+  padding-bottom: 10em; }
+
 .carousel-indicators li {
-  color: purple; }
+  height: 1em;
+  width: 1em;
+  border-radius: 5em;
+  border: 1px solid grey; }
+
+.carousel-control-next-icon:after {
+  content: '&rarr';
+  font-size: 55px;
+  color: blue; }
+
+.carousel-control-prev-icon:after {
+  content: '\&#8592';
+  font-size: 55px;
+  color: red; }
+
+ol.carousel-indicators li.active {
+  background-color: #63318a; }
