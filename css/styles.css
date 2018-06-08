@@ -34,7 +34,6 @@ button a {
 
 .news-section {
   background-color: #f17f38;
-  padding-bottom: 1em;
   margin-bottom: 4em;
   padding-top: 1em; }
 
@@ -69,6 +68,12 @@ button a {
   padding-bottom: 4em;
   margin-bottom: 1em;
   display: flex; }
+
+.carousel-indicators {
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .welcome-section {
   margin-top: 8em;
@@ -187,11 +192,6 @@ button a {
   font-size: 55px;
   color: #63318a; }
 
-.news-indicator-container {
-  position: absolute;
-  left: 1em;
-  top: 9em; }
-
 .calendar-controls-row {
   position: relative;
   left: 1em;
@@ -212,16 +212,32 @@ button a {
   top: 5em;
   right: 15em; }
 
+.carousel-control-prev {
+  position: static; }
+
+.carousel-control-next {
+  position: static; }
+
 ol.carousel-indicators li.active {
   background-color: #63318a; }
 
 .news-carousel-container {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 5em; }
+
+.calendar-carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3em; }
 
 .dropdown {
   display: inline-block; }
 
 .dropdown-menu {
-  background-color: #ea458f; }
+  background-color: rgba(234, 69, 143, 0.75); }
+
+.social-media {
+  padding-top: 5em; }

@@ -31,7 +31,7 @@ $secondary-color: rgb(99, 49, 138);
 
 .news-section {
 	background-color: rgb(241,127,56);
-	padding-bottom: 1em;
+	// padding-bottom: 1em;
 	margin-bottom: 4em;
 	padding-top: 1em;
 
@@ -80,9 +80,12 @@ $secondary-color: rgb(99, 49, 138);
 	display: flex;
 }
 
-// .carousel-indicators {
-// 	color: black;
-// }
+.carousel-indicators {
+	position: static;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 // .test {
 // 	background-color: grey;
@@ -289,12 +292,6 @@ $secondary-color: rgb(99, 49, 138);
 // 	right: 15em;
 // }
 
-.news-indicator-container {
-	position: absolute;
-	left: 1em;
-	top: 9em;
-
-}
 
 .calendar-controls-row {
 	// width: 100%;
@@ -328,12 +325,12 @@ $secondary-color: rgb(99, 49, 138);
 
 .carousel-control-prev {
 	// display: block;
-	// position: relative;
+	position: static;
 }
 
 .carousel-control-next {
 	// display: block;
-	// position: relative;
+	position: static;
 }
 
 ol.carousel-indicators li.active {
@@ -345,6 +342,14 @@ ol.carousel-indicators li.active {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-top: 5em;
+}
+
+.calendar-carousel-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3em;
 }
 
 .dropdown {
@@ -352,5 +357,10 @@ ol.carousel-indicators li.active {
 }
 
 .dropdown-menu{
-  background-color: $main-color;
+  background-color: rgba(234, 69, 143, 0.75);
 }
+
+.social-media {
+	padding-top: 5em;
+}
+
