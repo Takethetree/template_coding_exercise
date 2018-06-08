@@ -187,21 +187,6 @@ button a {
   font-size: 55px;
   color: #63318a; }
 
-.news-controls-row {
-  position: relative;
-  left: 1em;
-  width: calc(100% - 2em); }
-
-.news-arrow-container-left {
-  position: absolute;
-  top: 5em;
-  left: 15em; }
-
-.news-arrow-container-right {
-  position: absolute;
-  top: 5em;
-  right: 15em; }
-
 .news-indicator-container {
   position: absolute;
   left: 1em;
@@ -229,3 +214,14 @@ button a {
 
 ol.carousel-indicators li.active {
   background-color: #63318a; }
+
+.news-carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.dropdown {
+  display: inline-block; }
+
+.dropdown-menu {
+  background-color: #ea458f; }
