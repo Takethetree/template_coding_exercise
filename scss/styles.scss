@@ -243,23 +243,98 @@ $secondary-color: rgb(99, 49, 138);
 	border: 1px solid grey;
 }
 
-// .carousel-control-prev-icon, .carousel-control-next-icon {
-// 	background-color: $secondary-color;
-// 	bottom: 0;
-// }
-
-.carousel-control-next-icon:after{
-  content: '&rarr';
-  font-size: 55px;
-  color: blue;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-image: none;
 }
+
 
 .carousel-control-prev-icon:after {
-  content: '\&#8592';
-  font-size: 55px;
-  color: red;
+	// position: absolute;
+	// height: 100%;
+	// width: 100%;
+	// bottom: 0;
+	content: '\02190';
+	font-size: 55px;
+	color: $secondary-color;
+	// border: 1px solid black;
 }
 
+.carousel-control-next-icon:after {
+	content: '\02192';
+	font-size: 55px;
+	// height:
+	color: $secondary-color;
+	// border: 1px solid red;
+}
+
+.news-controls-row {
+	// width: 100%;
+	// height: 100%;
+	// border: 1px solid black;
+	position: relative;
+	left: 1em;
+	width: calc(100% - 2em);
+	// border: 1px solid black;
+}
+
+.news-arrow-container-left {
+	position: absolute;
+	top: 5em;
+	left: 15em;
+}
+
+.news-arrow-container-right {
+	position: absolute;
+	top: 5em;
+	right: 15em;
+}
+
+.news-indicator-container {
+	position: absolute;
+	left: 1em;
+	top: 9em;
+
+}
+
+.calendar-controls-row {
+	// width: 100%;
+	// height: 100%;
+	// border: 1px solid black;
+	position: relative;
+	left: 1em;
+	width: calc(100% - 2em);
+}
+
+.calendar-indicator-container {
+	position: absolute;
+	top: 9em;
+	left: 1em;
+
+}
+
+.calendar-arrow-container-left {
+	position: absolute;
+	top: 5em;
+	left: 15em;
+}
+
+.calendar-arrow-container-right {
+	position: absolute;
+	top: 5em;
+	right: 15em;
+}
+
+
+
+.carousel-control-prev {
+	// display: block;
+	// position: relative;
+}
+
+.carousel-control-next {
+	// display: block;
+	// position: relative;
+}
 
 ol.carousel-indicators li.active {
 	background-color: $secondary-color;

@@ -174,15 +174,58 @@ button a {
   border-radius: 5em;
   border: 1px solid grey; }
 
-.carousel-control-next-icon:after {
-  content: '&rarr';
-  font-size: 55px;
-  color: blue; }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none; }
 
 .carousel-control-prev-icon:after {
-  content: '\&#8592';
+  content: '\02190';
   font-size: 55px;
-  color: red; }
+  color: #63318a; }
+
+.carousel-control-next-icon:after {
+  content: '\02192';
+  font-size: 55px;
+  color: #63318a; }
+
+.news-controls-row {
+  position: relative;
+  left: 1em;
+  width: calc(100% - 2em); }
+
+.news-arrow-container-left {
+  position: absolute;
+  top: 5em;
+  left: 15em; }
+
+.news-arrow-container-right {
+  position: absolute;
+  top: 5em;
+  right: 15em; }
+
+.news-indicator-container {
+  position: absolute;
+  left: 1em;
+  top: 9em; }
+
+.calendar-controls-row {
+  position: relative;
+  left: 1em;
+  width: calc(100% - 2em); }
+
+.calendar-indicator-container {
+  position: absolute;
+  top: 9em;
+  left: 1em; }
+
+.calendar-arrow-container-left {
+  position: absolute;
+  top: 5em;
+  left: 15em; }
+
+.calendar-arrow-container-right {
+  position: absolute;
+  top: 5em;
+  right: 15em; }
 
 ol.carousel-indicators li.active {
   background-color: #63318a; }
